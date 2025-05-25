@@ -2,5 +2,5 @@
     "version": 2,
     "name": "book-api",
     "builds": [{ "src": "app.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/src/(.*)", "dest": "/App.js" }]
+    "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
 }
